@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+       
+        
+        android:id="@+id/mainbacktitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="真的要退出么？"
+        android:textSize="30dip" >
+    </TextView>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_weight="1"
+           android:textSize="30dip"
+            android:id="@+id/yes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+      
+            android:text="是"
+             />
+
+        <Button
+            android:layout_weight="1"
+           android:textSize="30dip"
+            android:id="@+id/no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+          
+            android:text="否"
+             />
+    </LinearLayout>
+
+</LinearLayout>

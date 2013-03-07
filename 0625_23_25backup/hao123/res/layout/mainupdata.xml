@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:id="@+id/Mainwindow"
+		android:gravity="center_horizontal" android:layout_width="fill_parent"
+		android:layout_alignParentTop="true" android:layout_height="fill_parent">
+
+
+
+	</LinearLayout>
+	
+</RelativeLayout>
+
+		

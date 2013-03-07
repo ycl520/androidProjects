@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center_horizontal"
+	android:weightSum="5">
+	<ImageButton android:layout_weight="1"
+		android:layout_width="wrap_content" android:src="@drawable/ic_tab_left_unselected"
+		android:id="@+id/seleft" android:layout_height="wrap_content"></ImageButton>
+	<ImageButton android:layout_weight="1"
+		android:layout_width="wrap_content" android:src="@drawable/ic_tab_right_unselected"
+		android:id="@+id/seright" android:layout_height="wrap_content"></ImageButton>
+	<ImageButton android:layout_weight="1"
+		android:layout_height="wrap_content" android:id="@+id/serefresh"
+		android:layout_width="wrap_content" android:src="@drawable/ic_tab_refresh_unselected"></ImageButton>
+	<ImageButton android:layout_weight="1"
+		android:layout_width="wrap_content" android:src="@drawable/ic_tab_history_unselected"
+		android:id="@+id/sehistory" android:layout_height="wrap_content"></ImageButton>
+	<ImageButton android:layout_weight="1"
+		android:layout_width="wrap_content" android:src="@drawable/ic_tab_home_unselected"
+		android:id="@+id/sehome" android:layout_height="wrap_content"></ImageButton>
+
+</LinearLayout>
